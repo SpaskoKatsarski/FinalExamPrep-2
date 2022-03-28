@@ -13,11 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T01. World Tour", "T01. Wor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03. Plant Discovery", "T03. Plant Discovery\T03. Plant Discovery.csproj", "{536A88EB-95F3-4B7D-BBDD-54A3BDC17326}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T01. Password Reset", "T01. Password Reset\T01. Password Reset.csproj", "{1E858289-0DF6-4EA3-8F1D-A2C5386E723C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T01. Password Reset", "T01. Password Reset\T01. Password Reset.csproj", "{1E858289-0DF6-4EA3-8F1D-A2C5386E723C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02. Fancy Barcodes", "T02. Fancy Barcodes\T02. Fancy Barcodes.csproj", "{6F9C6364-FFC5-4C31-85FA-83843951D20E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T02. Fancy Barcodes", "T02. Fancy Barcodes\T02. Fancy Barcodes.csproj", "{6F9C6364-FFC5-4C31-85FA-83843951D20E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03. Heroes of Code and Logic VII", "T03. Heroes of Code and Logic VII\T03. Heroes of Code and Logic VII.csproj", "{B2677383-0245-458A-8F83-F94DAA7B54A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03. Heroes of Code and Logic VII", "T03. Heroes of Code and Logic VII\T03. Heroes of Code and Logic VII.csproj", "{B2677383-0245-458A-8F83-F94DAA7B54A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02. Emoji Detector", "T02. Emoji Detector\T02. Emoji Detector.csproj", "{1A5F44DD-0A29-4FB0-AF5B-A6D39CC6123D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03. P!rates", "T03. P!rates\T03. P!rates.csproj", "{FA651A13-A36A-4D7A-9203-55DD89EE11A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{B2677383-0245-458A-8F83-F94DAA7B54A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2677383-0245-458A-8F83-F94DAA7B54A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2677383-0245-458A-8F83-F94DAA7B54A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5F44DD-0A29-4FB0-AF5B-A6D39CC6123D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5F44DD-0A29-4FB0-AF5B-A6D39CC6123D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5F44DD-0A29-4FB0-AF5B-A6D39CC6123D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5F44DD-0A29-4FB0-AF5B-A6D39CC6123D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA651A13-A36A-4D7A-9203-55DD89EE11A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA651A13-A36A-4D7A-9203-55DD89EE11A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA651A13-A36A-4D7A-9203-55DD89EE11A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA651A13-A36A-4D7A-9203-55DD89EE11A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
