@@ -33,7 +33,10 @@ namespace T01._World_Tour
 
                     if (IsIndexValid(trafficPlan, startIndex) || !IsIndexValid(trafficPlan, endIndex) && (IsIndexValid(trafficPlan, startIndex + 1) && IsIndexValid(trafficPlan, endIndex + 1)))
                     {
-                        trafficPlan = trafficPlan.Remove(startIndex, endIndex - startIndex + 1);
+                        if (IsIndexValid(trafficPlan, endIndex))
+                        {
+                            trafficPlan = trafficPlan.Remove(startIndex, endIndex - startIndex + 1);
+                        }
                     }
                 }
                 else if (action == "Switch")
